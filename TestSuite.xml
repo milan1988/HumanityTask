@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite">
+    <test name="Testing">
+        <classes>
+            <class name="tests.TestLogin" />
+            <class name="tests.TestStaffPage" />
+            <class name="tests.TestTimeClock" />            
+        </classes>
+    </test>
+</suite>
